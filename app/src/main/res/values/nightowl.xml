@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="night_owl_1">
+			Designed and developed by Nightowl Technology
+    </string>
+
+
+
+    <string name="night_owl_5">email: info@nightowl.com.ng</string>
+    <string name="night_owl_6">facebook: fb.com/nightowltechnology</string>
+    <string name="night_owl_4">
+        Address: 102 Block H Zoo Road Kundila Estate, Kano.
+    </string>
+
+    <string name="contact_button">Call developers now</string>
+
+
+
+</resources>

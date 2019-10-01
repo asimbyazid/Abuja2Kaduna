@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nightowltechnology.asimyaz.abuja2kaduna.PricingActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:text="TICKET PRICE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="loading price please wait..."
+        android:textSize="14dp"
+        android:id="@+id/price1"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="14dp"
+        android:id="@+id/price2"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"  />
+</LinearLayout>

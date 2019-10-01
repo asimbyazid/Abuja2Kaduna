@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nightowltechnology.asimyaz.abuja2kaduna.HelpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:gravity="center"
+        android:layout_row="0"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/destination"
+        android:text="ABUJA TO KADUNA"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@+id/destination"
+        android:background="@color/colorPrimaryDark"
+
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/destination"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <GridLayout
+            android:id="@+id/data_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp">
+
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/on"
+                android:layout_column="0"
+                android:id="@+id/green"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="@dimen/right_margin_train"
+                android:layout_row="2"
+                android:paddingRight="10dp"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_row="2"
+                android:id="@+id/gInfo"
+                android:text="Train is available" />
+
+
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/off"
+                android:layout_column="0"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="@dimen/right_margin_train"
+                android:layout_row="3"
+                android:id="@+id/red"
+                android:paddingRight="10dp"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/rInfo"
+                android:text="Train has departed IDU or The Trip is finished" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/cancel"
+                android:id="@+id/yellow"
+                android:layout_column="0"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="@dimen/right_margin_train"
+                android:layout_row="4"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:id="@+id/yInfo"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="12dp"
+                android:text="Train has been cancelled" />
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/black"
+                android:id="@+id/black"
+                android:layout_column="0"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="@dimen/right_margin_train"
+                android:layout_row="5"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/bInfo"
+                android:layout_marginBottom="12dp"
+                android:text="Train status is currently not available" />
+
+
+
+
+
+
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height ="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/data_grid"
+            android:text="The train starts at Idu and ends at Rigasa, Stops over for few minutes at Kubwa-Jere-Rijana everyday except for sundays. be at the station atleast 30 minutes before time" />
+    </RelativeLayout>
+
+</RelativeLayout>

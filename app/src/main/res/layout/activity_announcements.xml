@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.nightowltechnology.asimyaz.abuja2kaduna.Announcements">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:gravity="center"
+        android:layout_row="0"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/destination"
+        android:text="LATEST NEWS"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@+id/destination"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/announcements"
+        android:scrollbars="vertical"
+        > </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695c</color>
+    <color name="colorPrimaryDark">#003d33</color>
+    <color name="colorAccent">#FFEDB8</color>
+<color name="custom_row">#fff</color>
+    <color name="Nightowl">#686868</color>
+    <color name="Nightowl_main_a">#403230</color>
+    <color name="black">#000000</color>
+    <color name="textcolor">#FFF</color>
+
+</resources>
